@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Note Taker</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Note Taker</h1>
+      <nav>
+        <a href="/">Back to Home</a>
+      </nav>
+    </header>
+    <main>
+      <div id="note-container">
+        <div id="note-list">
+          <!-- List of notes will be dynamically populated here -->
+        </div>
+        <div id="note-editor">
+          <input type="text" id="note-title" placeholder="Note Title" />
+          <textarea id="note-text" placeholder="Note Text"></textarea>
+          <button id="save-note">Save Note</button>
+          <button id="new-note">New Note</button>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
