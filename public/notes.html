@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Note Taker</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <a href="/">Home</a>
+      <button class="save-note hidden">Save Note</button>
+      <button class="new-note">New Note</button>
+    </div>
+    <div class="container notes-container">
+      <div class="notes-list">
+        <h2>Notes</h2>
+        <ul class="list-container list-group">
+          <!-- List of notes will be dynamically inserted here -->
+        </ul>
+      </div>
+      <div class="note-editor">
+        <input type="text" class="note-title" placeholder="Note Title" />
+        <textarea class="note-textarea" placeholder="Note Text"></textarea>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

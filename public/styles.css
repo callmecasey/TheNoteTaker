@@ -1,0 +1,113 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+/* Container styles */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Navigation bar styles */
+.navbar {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.navbar a:hover {
+  background-color: #0056b3;
+  border-radius: 5px;
+}
+
+/* Notes page styles */
+.notes-container {
+  display: flex;
+}
+
+.notes-list {
+  width: 30%;
+  background-color: #fff;
+  border-right: 1px solid #ddd;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.note-item {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.note-item:hover {
+  background-color: #f0f0f0;
+}
+
+.note-item-title {
+  font-weight: bold;
+}
+
+.note-editor {
+  width: 70%;
+  padding: 20px;
+}
+
+.note-title,
+.note-textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.note-title {
+  font-size: 18px;
+}
+
+.note-textarea {
+  height: 300px;
+  resize: none;
+  font-size: 16px;
+}
+
+.save-note,
+.new-note {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.save-note:hover,
+.new-note:hover {
+  background-color: #0056b3;
+}
+
+/* Utility classes */
+.hidden {
+  display: none;
+}
